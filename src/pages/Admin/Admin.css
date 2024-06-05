@@ -1,0 +1,19 @@
+/* Admin.css */
+.admin-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    /* Adjust width as needed */
+    background-color: #f0f0f0;
+}
+
+.content {
+    flex: 1;
+    overflow-y: auto;
+    /* Scrollable content */
+}
+
+/* For responsive design, you can use media queries to adjust styles based on screen size */
